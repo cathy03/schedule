@@ -19,7 +19,6 @@ html{
 }
 
 .route{
-  margin-top: 8px;
   border-radius: 24px;
   overflow: hidden;
 }
@@ -76,12 +75,13 @@ h2{
 
 .profile{
   width: 56px;
-  height: 75px;
   border-radius: 8px;
   background: #000;
+  overflow: hidden;
 }
 .profile img{
   width: 100%;
+  vertical-align: bottom;
   opacity: 0.4;
 }
 
